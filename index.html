@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="拾志 · 运营岗位资质刷题神器，支持顺序刷题、组卷考试、遗忘曲线、闪卡与游戏模式">
+<meta name="theme-color" content="#3b6fe0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="拾志">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+<title>拾志 · 运营岗位资质刷题</title>
+</head>
+<body data-theme="shizhi" data-fx="none">
+<div id="app">
+  <header id="topbar">
+    <button id="btn-back" class="icon-btn" aria-label="返回">‹</button>
+    <div id="topbar-title">拾志</div>
+    <div id="topbar-right"></div>
+  </header>
+  <main id="view"></main>
+</div>
+<div id="toast" role="status"></div>
+<div id="modal-mask" class="hide"><div id="modal-box"></div></div>
+<script src="js/data.js"></script>
+<script src="js/core.js"></script>
+<script src="js/views.js"></script>
+<script src="js/session.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

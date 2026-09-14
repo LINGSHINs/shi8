@@ -1,0 +1,17 @@
+{
+  "name": "拾志 · 运营岗位资质刷题",
+  "short_name": "拾志",
+  "description": "顺序刷题、组卷考试、部门专项、遗忘曲线、闪卡记忆、游戏闯关，24 款主题皮肤。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f5fb",
+  "theme_color": "#3b6fe0",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
